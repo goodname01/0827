@@ -1,17 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T12:55:56.655Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="HWNgYRy3zkG3l7AP_XZv" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-12T13:06:41.014Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="uWOzHBkImJvdbnRE4qAS" version="22.1.0" type="github">
   <diagram name="第 1 页" id="93p5Pk3uzBa97Yc9u5RM">
     <mxGraphModel dx="1001" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WdEWzgZCNhcOrDIZhEsG-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.2533330281575521;" vertex="1" parent="1">
-          <mxGeometry x="690" y="180" width="100" height="60" as="geometry" />
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdEWzgZCNhcOrDIZhEsG-1" target="oH6ADfaThdcYNzSV5WOj-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WdEWzgZCNhcOrDIZhEsG-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
-          <mxGeometry x="690" y="90" width="100" height="60" as="geometry" />
+        <mxCell id="WdEWzgZCNhcOrDIZhEsG-1" value="新闻栏目管理请求" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.2533330281575521;" parent="1" vertex="1">
+          <mxGeometry x="360" y="420" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WdEWzgZCNhcOrDIZhEsG-4" value="管理员" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="130" width="100" height="60" as="geometry" />
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdEWzgZCNhcOrDIZhEsG-2" target="oH6ADfaThdcYNzSV5WOj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEWzgZCNhcOrDIZhEsG-2" value="用户信息" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" parent="1" vertex="1">
+          <mxGeometry x="360" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WdEWzgZCNhcOrDIZhEsG-4" target="WdEWzgZCNhcOrDIZhEsG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WdEWzgZCNhcOrDIZhEsG-4" value="管理员" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="170" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH6ADfaThdcYNzSV5WOj-1" target="WdEWzgZCNhcOrDIZhEsG-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-1" value="登录" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oH6ADfaThdcYNzSV5WOj-6" target="oH6ADfaThdcYNzSV5WOj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-6" value="新闻栏目管理系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oH6ADfaThdcYNzSV5WOj-10" target="WdEWzgZCNhcOrDIZhEsG-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oH6ADfaThdcYNzSV5WOj-10" value="新闻栏目管理结果" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.2533330281575521;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
